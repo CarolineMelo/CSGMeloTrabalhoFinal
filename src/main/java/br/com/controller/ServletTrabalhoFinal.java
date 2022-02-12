@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+//import br.com.model.IpvaDAO;
 import br.com.model.Veiculo;
 import br.com.model.VeiculoDAO;
 
@@ -21,6 +22,7 @@ public class ServletTrabalhoFinal extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 //	private VeiculoDAO veiculoD;
 	VeiculoDAO veiculoD = new VeiculoDAO();
+//	IpvaDAO i = new IpvaDAO();
 	
 //		veiculoD = new VeiculoDAO();
     /**

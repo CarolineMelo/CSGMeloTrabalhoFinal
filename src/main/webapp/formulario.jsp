@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-success mb-5">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
   <a class="navbar-brand" href="#">Drogasil</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
     <span class="navbar-toggler-icon"></span>
@@ -63,7 +63,7 @@
                     <span class="form-text text-muted" style="display: none;">Por favor, entre com o ano.</span>
                   </div>
                   			
-				<button type="submit" name="option" value="salvar">Salvar</button>
+				<button type="submit" class="btn-primary mt-3" name="option" value="salvar">Salvar</button>
 			</c:when>
 			<c:otherwise>
 				<input type="hidden" name="id" value="${auto.id}"/>
@@ -89,7 +89,7 @@
                     <span class="form-text text-muted" style="display: none;">Por favor, entre com o ano.</span>
                   </div>
                   			
-				<button type="submit" name="option" value="atualizar">Atualizar</button>
+				<button type="submit" class="btn-primary mb-3" name="option" value="atualizar">Atualizar</button>
 			</c:otherwise>
 		</c:choose>
 	</form>

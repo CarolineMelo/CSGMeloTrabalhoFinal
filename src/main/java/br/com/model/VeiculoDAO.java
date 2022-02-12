@@ -87,7 +87,7 @@ public class VeiculoDAO {
 		Connection con = c.getConnection();
 		
 		try {
-			PreparedStatement p = con.prepareStatement("update Carro set placa = ?, modelo = ?, marca = ? ano = ? where id = ?");
+			PreparedStatement p = con.prepareStatement("update Carro set placa = ?, modelo = ?, marca = ?, ano = ? where id = ?");
 			p.setString(1, updateVeiculo.getPlaca());
 			p.setString(2, updateVeiculo.getModelo());
 			p.setString(3, updateVeiculo.getMarca());
